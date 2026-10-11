@@ -31,14 +31,18 @@
    ```
 
 ## Usage
-Make sure the Ollama application is running in the background, then execute:
+
+### 🖥️ Option 1: Command Line Interface
+To run the quick terminal-based text prompt interface:
 ```bash
 python app.py
 ```
-Paste your target YouTube link when prompted!
 
-## Web Interface
-To run the sleek Gradio browser interface dashboard instead of the terminal prompt:
+### 🌐 Option 2: Shareable Web Dashboard (Gradio)
+Make sure the Ollama application is running in the background, then execute:
 ```bash
 python ui.py
 ```
+This will launch a local browser window. Because `share=True` is enabled in the script, it will also generate a public `https://gradio.live` link in your terminal. 
+
+*Note: This public link stays active as long as your terminal script is actively running and your computer is awake.*
