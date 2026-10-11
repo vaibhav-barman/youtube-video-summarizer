@@ -36,3 +36,9 @@ Make sure the Ollama application is running in the background, then execute:
 python app.py
 ```
 Paste your target YouTube link when prompted!
+
+## Web Interface
+To run the sleek Gradio browser interface dashboard instead of the terminal prompt:
+```bash
+python ui.py
+```
