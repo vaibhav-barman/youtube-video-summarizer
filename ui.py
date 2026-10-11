@@ -103,4 +103,4 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="purple", secondary_hue="slate")
     )
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
