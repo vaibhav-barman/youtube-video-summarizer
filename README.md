@@ -46,5 +46,3 @@ python ui.py
 This will launch a local browser window. Because `share=True` is enabled in the script, it will also generate a public `https://gradio.live` link in your terminal. 
 
 *Note: This public link stays active as long as your terminal script is actively running and your computer is awake.*
-
-> 🔒 **Security Note:** The live share interface is password protected. The default credentials set in `ui.py` are `admin` / `SuperSecretPassword123`. Change these before sharing the link publicly.
